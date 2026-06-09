@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "EQItems Price Lookup",
+  "version": "1.0",
+  "description": "Shows live AraduneAuctions.net average selling prices next to each item on EQItems.com Best-in-Slot search results.",
+  "homepage_url": "https://github.com/your-username/eqitems-price-lookup",
+  "author": "your name here",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "eqitems-price-lookup@your-domain-or-email.com",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "optional": []
+      }
+    }
+  },
+  "permissions": [
+    "*://eqitems.com/*",
+    "*://www.eqitems.com/*",
+    "*://araduneauctions.net/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://eqitems.com/*", "*://www.eqitems.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  }
+}
