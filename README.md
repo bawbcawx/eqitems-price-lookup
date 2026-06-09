@@ -19,9 +19,19 @@ When you run a Best-in-Slot search on EQItems.com, a green price badge automatic
 
 ## Installation
 
+Manual Installation in Firefox
+Download this repository — click the green Code button on GitHub → Download ZIP, then extract it to a folder on your computer
+Open Firefox and type about:debugging in the address bar and press Enter
+Click This Firefox in the left sidebar
+Click Load Temporary Add-on...
+Navigate to the folder you extracted and select the manifest.json file
+The extension is now active — you should see it listed under Temporary Extensions
+Note: Temporary add-ons are removed when Firefox is closed. You will need to repeat these steps each time you restart Firefox. For a permanent install without reloading, use the Firefox Add-ons page once it clears Mozilla review.
+
 **[Install from Firefox Add-ons (AMO)](https://addons.mozilla.org/en-US/firefox/addon/eqitems-price-display/)**
 
 > ⏳ Currently awaiting review from Mozilla. Check back soon!
+
 
 ---
 
