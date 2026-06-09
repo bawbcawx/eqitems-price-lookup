@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "EQItems Price Lookup",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Shows live AraduneAuctions.net average selling prices next to each item on EQItems.com Best-in-Slot search results.",
   "homepage_url": "https://github.com/your-username/eqitems-price-lookup",
   "author": "your name here",
@@ -13,6 +13,9 @@
         "required": ["none"],
         "optional": []
       }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
     }
   },
   "permissions": [
