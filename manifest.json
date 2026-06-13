@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "EQItems Price Lookup",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Shows live AraduneAuctions.net average selling prices next to each item on EQItems.com Best-in-Slot search results.",
-  "homepage_url": "https://github.com/your-username/eqitems-price-lookup",
-  "author": "your name here",
+  "homepage_url": "https://github.com/bawbcawx",
+  "author": "Bob Cox",
   "browser_specific_settings": {
     "gecko": {
       "id": "eqitems-price-lookup@your-domain-or-email.com",
@@ -19,6 +19,8 @@
     }
   },
   "permissions": [
+    "webRequest",
+    "webRequestBlocking",
     "*://eqitems.com/*",
     "*://www.eqitems.com/*",
     "*://araduneauctions.net/*"
